@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <span>Priyanka Subudhi</span>
+        </a>
+        <nav class="navbar">
+            <a href="#mypage">About Me</a>
+            <a href="#edu">Education</a>
+            <a href="#skill">Skills</a>
+            <a href="#work">Project</a>
+        </nav>
+
+        <a href="#hire" class="contact">Contact Me</a>
+    </header>
+
+    <section class="home" id="mypage">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Priyanka Subudhi<br></span>a Frontend Developer</h1>
+
+            <p>I am a dedicated front-end developer currently pursuing my B.Tech degree at ITER SOA, where I am now in
+                my third year. My passion for creating intuitive and visually appealing user interfaces drives me to
+                constantly enhance my skills in HTML, CSS, and JavaScript. Balancing my academic responsibilities with
+                hands-on projects, I strive to stay updated with the latest trends and technologies in web development,
+                aiming to deliver seamless and engaging user experiences.</p>
+
+            <div class="btn-box">
+                <button class="btn-1">Hire Me</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="myself.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="education" id="edu">
+        <div class="container">
+            <h2 class="text-center">My Education</h2>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title">St.Joseph's High School</h5>
+                    <p class="card-text">10th , 2020</p>
+                </div>
+            </div>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title">St.Xavier's High School </h5>
+                    <p class="card-text">12th , 2022</p>
+                </div>
+            </div>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title">Institute of Technical Education and Research (ITER), SOA</h5>
+                    <p class="card-text">BTECH , Computer Science Engineering</p>
+                    <p class="card-text">2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skill">
+        <div class="container">
+            <h2 class="text-center">My Skills</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="html.jpg" alt="html">
+                    <h3>HTML</h3>
+                </div>
+                <div class="card">
+                    <img src="css.jpg" alt="css">
+                    <h3>CSS</h3>
+                </div>
+                <div class="card">
+                    <img src="js.jpg" alt="js">
+                    <h3>JAVASCRIPT</h3>
+                </div>
+                <div class="card">
+                    <img src="java.jpg" alt="java">
+                    <h3>JAVA</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="project" id="work">
+        <div class="container">
+            <h2 class="text-center">My Projects</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="landingpage.jpg" alt="landingpage">
+                    <h3>Exploration Escapade</h3>
+                    <p>A Travel agency responsive landing page using html,css,js. </p>
+                    <a href="https://github.com/priyankaa247/PRODIGY_WD_01">click here</a>
+                </div>
+                <div class="card">
+                    <img src="stopwatch.jpg" alt="stopwatch">
+                    <h3>Stopwatch</h3>
+                    <p>Having starting,pausing and resetting the stopwatch as well as tracking and displaying lap-times
+                    </p>
+                    <a href="https://github.com/priyankaa247/PRODIGY_WD_02">click here</a>
+                </div>
+                <div class="card">
+                    <img src="game.jpg" alt="game">
+                    <h3>Tic-Tac-Toe</h3>
+                    <p>Web application having functions to handle user clicks,track game state and check for winning
+                        conditions.</p>
+                    <a href="https://github.com/priyankaa247/PRODIGY_WD_03">click here</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contactus" id="hire">
+        <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
